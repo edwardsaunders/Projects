@@ -1,0 +1,139 @@
+
+/* Syyling for return resultys bar */
+
+.results-container{
+  /*background: #edf4f0;*/
+  overflow: hidden;
+  padding:20px;
+  margin:0;
+  display:table;
+}
+.search-result {
+  list-style:none;
+	margin: 0;
+  float: left;
+  /*width: 50%;*/
+  padding: 1.5em 10%;
+  border-top: solid 1px #d9e3dc;
+  color: #c0cac3;
+  font-style: italic;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align:center;
+  display: table-cell;
+}
+
+.result-title {
+    display: block;
+    margin-bottom: 0.25em;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.2em;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.result-body{
+    color: #616857;
+    font-size: 0.9em;
+    font-style: normal;
+}
+.search-result-title {
+	  color: #616857;
+    font-size: 0.9em;
+    font-style: normal;
+}
+
+
+
+
+
+/* Syyling for search bar */
+
+.search-form-wrapper{
+  text-align: center;
+}
+
+.search-form {
+    margin:auto;
+    display: inline-block;
+    zoom: 1;
+    border: solid 1px #d2d2d2;
+    padding: 3px 5px;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    -webkit-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0px rgba(0,0,0,.1);
+    box-shadow: 0 1px 0px rgba(0,0,0,.1);
+    background: #f1f1f1;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+    background: -moz-linear-gradient(top, #fff, #ededed);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');    font-family: 'Julius Sans One', sans-serif;
+}
+
+.search-value{
+background: #fff;
+    padding: 6px 6px 6px 8px;
+    width: 202px;
+    border: solid 1px #bcbbbb;
+    outline: none;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.2);
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.search-button {
+    color: #fff;
+    border: solid 1px #494949;
+    font-size: 11px;
+    height: 27px;
+    width: 27px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.6);
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9e9e9e), to(#454545));
+      background: -moz-linear-gradient(top, #9e9e9e, #454545);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545');
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9e9e9e', endColorstr='#454545');
+      font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+
+
+/* Syyling for navigation bar */
+
+#page-index{
+  margin:0;
+  padding:0;
+}
+
+.horizontal-list {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  margin: auto;
+}
+
+.go-to-page{
+  background: none;
+border: none;
+cursor: hand;
+cursor: pointer;
+color: #c0cac3;
+}
+
+.current-page{
+  background: none;
+border: none;
+cursor: default;
+color: black;
+}

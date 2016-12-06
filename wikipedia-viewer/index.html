@@ -1,0 +1,39 @@
+<!doctype html>
+
+<!-- TO do >
+Fix API access-orgin issue
+Center Search Bar
+Get autocomplete to work
+-->
+
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Wikipedia Viewer</title>
+  <meta name="description" content="Wikipedia Viewer">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <body>
+	<div class='search-form-wrapper'>
+    <div class="search-form">
+	     <input class="search-value" type="text" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}">
+       <button class="search-button" onclick="searchButton()">Go</button>
+     </div>
+		<ul id='results-container' class='results-container'>
+    </ul>
+    <ul id='page-index'>
+    </ul>
+  </div>
+	</div>
+</body>
+
+</body>
+</html>
